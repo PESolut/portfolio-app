@@ -10,7 +10,11 @@ function App() {
   return (
     <>
     
-    <PageHeader/>
+    <PageHeader />
+
+    <PageBlock id='block-0' label='Home' >
+
+    </PageBlock>
 
     <PageBlock id='block-1' label='About'>
 
