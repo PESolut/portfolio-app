@@ -1,0 +1,73 @@
+html {
+    scroll-behavior: smooth;
+  }
+  
+  .page-wrapper {
+    font-family: Arial, sans-serif;
+  }
+  
+  .page-header {
+    position: sticky;
+    top: 0;
+    color: white;
+    padding: 10px 0;
+    /* text-align: right; */
+    /* text-align: center; */
+  }
+  
+  .navbar ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .navbar ul li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  .navbar ul li a {
+    color: white;
+    text-decoration: none;
+  }
+
+  .navbarbutton-container {
+    border-radius: 50%;
+    height: 72;
+    width: 72;
+    background-color: rgb(78, 101, 173);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+  }
+
+  .navbarbutton-image {
+    width: 100%; /* Make the image fill the circle */
+    height: 100%; /* Maintain aspect ratio */
+    object-fit: cover; /* Crop the image to fit inside the circle */
+  }
+
+  .fixed-right {
+    /* height: 72; */
+    position: fixed;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: auto; /* Adapts to the content or can use percentages */
+    padding: 20px; /* Optional padding */
+  }
+  
+  
+  .page-block {
+    padding: 50px 20px;
+    min-height: 100vh;  /* Ensures each block fills the viewport */
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .page-footer {
+    padding: 20px;
+    background-color: #333;
+    color: white;
+    text-align: center;
+  }
+  
